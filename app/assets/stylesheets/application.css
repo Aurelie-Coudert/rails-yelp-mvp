@@ -13,3 +13,46 @@
  *= require_tree .
  *= require_self
  */
+
+#review_content {
+  background-color: #ecf5fb;
+}
+
+#review_rating {
+  background-color: #ecf5fb;
+}
+
+h2 {
+  color: rgb(6, 6, 122);
+}
+
+h3 {
+  color: rgb(6, 6, 122);
+}
+
+h4 {
+  color: rgb(6, 6, 122);
+  padding-top: 20px;
+}
+
+.list-group-item {
+  font-size: smaller;
+}
+
+label {
+  color: rgb(6, 6, 122);
+  font-size: smaller;
+  font-weight: bold;
+}
+
+a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
